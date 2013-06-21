@@ -1,0 +1,13 @@
+MSYS-1.0.12 Build:2011-07-20 17:52
+Exception: STATUS_ACCESS_VIOLATION at eip=68001FF3
+eax=00000001 ebx=0022FB14 ecx=10000088 edx=68560004 esi=0022FBEC edi=0022F7EC
+ebp=0022F61C esp=0022F5F4 program=C:\Users\Administrator\AppData\Local\GitHub\PortableGit_ca477551eeb4aea0e4ae9fcd3358bd96720bb5c8\bin\sh.exe
+cs=001B ds=0023 es=0023 fs=003B gs=0000 ss=0023
+Stack trace:
+Frame     Function  Args
+0022F61C  68001FF3  (0022FAC0, 04FF5F79, 01CE6E7B, 04FF5F79)
+0022F63C  680022D9  (0022F7EC, 00020000, E58EBEE7, 4F54BD9B)
+0022F65C  6801366A  (0022FAC0, 00000000, 00110000, 00000000)
+0022FB00  6805E455  (00FFFF00, 84000022, 00000000, 00000000)
+1111278 [main] sh 12540 handle_exceptions: Exception: STATUS_ACCESS_VIOLATION
+1144538 [main] sh 12540 handle_exceptions: Error while dumping state (probably corrupted stack)
